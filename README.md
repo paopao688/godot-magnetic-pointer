@@ -13,8 +13,10 @@
 ## 演示视频
 
 
-https://github.com/user-attachments/assets/53aa3d6a-bdab-45f2-893e-5cc8b4d69991
-https://github.com/paopao688/godot-magnetic-pointer/issues/1#issue-4316951491
+<video width="600" controls muted>
+  <source src="https://github.com/user-attachments/assets/53aa3d6a-bdab-45f2-893e-5cc8b4d69991" type="video/mp4">
+你的浏览器不支持视频播放
+</video>
 
 ## 快速开始
 
@@ -96,4 +98,3 @@ https://github.com/paopao688/godot-magnetic-pointer/issues/1#issue-4316951491
 
 - [演示视频](https://github.com/user-attachments/assets/53aa3d6a-bdab-45f2-893e-5cc8b4d69991)
 - [Godot 官方文档](https://docs.godotengine.org/)
-
