@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2c3d4e5f6"]
+
+[ext_resource type="Script" path="res://scripts/cursor_effect.gd" id="1_7m27j"]
+
+[node name="TestCursor" type="Node2D"]
+
+[node name="cursor_target_1" type="ColorRect" parent="."]
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 200.0
+offset_bottom = 200.0
+color = Color(0, 1, 0, 0.3)
+
+[node name="cursor_target_2" type="ColorRect" parent="."]
+offset_left = 300.0
+offset_top = 200.0
+offset_right = 400.0
+offset_bottom = 300.0
+color = Color(0, 0, 1, 0.3)
+
+[node name="cursor_target_3" type="ColorRect" parent="."]
+offset_left = 200.0
+offset_top = 350.0
+offset_right = 350.0
+offset_bottom = 450.0
+color = Color(1, 1, 0, 0.3)
+
+[node name="Cursor" type="Node2D" parent="."]
+script = ExtResource("1_7m27j")
+
+[node name="cursor_main" type="ColorRect" parent="Cursor"]
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+color = Color(1, 1, 1, 0.8)
+
+[node name="cursor_corner_tl" type="ColorRect" parent="Cursor"]
+offset_left = -25.0
+offset_top = -25.0
+offset_right = -17.0
+offset_bottom = -17.0
+color = Color(1, 1, 1, 0.6)
+
+[node name="cursor_corner_tr" type="ColorRect" parent="Cursor"]
+offset_left = 17.0
+offset_top = -25.0
+offset_right = 25.0
+offset_bottom = -17.0
+color = Color(1, 1, 1, 0.6)
+
+[node name="cursor_corner_bl" type="ColorRect" parent="Cursor"]
+offset_left = -25.0
+offset_top = 17.0
+offset_right = -17.0
+offset_bottom = 25.0
+color = Color(1, 1, 1, 0.6)
+
+[node name="cursor_corner_br" type="ColorRect" parent="Cursor"]
+offset_left = 17.0
+offset_top = 17.0
+offset_right = 25.0
+offset_bottom = 25.0
+color = Color(1, 1, 1, 0.6)
