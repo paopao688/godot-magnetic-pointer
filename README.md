@@ -98,3 +98,4 @@
 
 - [演示视频](https://github.com/user-attachments/assets/53aa3d6a-bdab-45f2-893e-5cc8b4d69991)
 - [Godot 官方文档](https://docs.godotengine.org/)
+- [参考：JIEJOE的网页光标](https://www.bilibili.com/video/BV1rEQ1BbEmn/)
